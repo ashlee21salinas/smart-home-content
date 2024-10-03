@@ -1,15 +1,40 @@
 body {
-   background-color: rgb(143, 143, 196);
-}
-
-nav {
-    background-color: white;
-    height: 100px;
-}
-
-section {
-    background-color: rgb(224, 224, 235);
+    background-color: #020659;
     text-align: center;
-    padding: 0%;
+}
+
+header>nav {
+    display: flex;
+    background-color: #96A2BA;
+    padding: 1em;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav>a {
+    background-color: #010326;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 1em;
+    border-radius: 4em;
+    align-items: center;
+    justify-content: center;
+    color: white;
 
 }
+
+main {
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 0%;
+    padding: 25%;
+    
+}
+
+
+
+
+
+
