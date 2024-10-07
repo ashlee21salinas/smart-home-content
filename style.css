@@ -24,17 +24,36 @@ nav>a {
 
 }
 
-main {
-    background-image: url(home.jpg);
-    background-repeat: no-repeat;
-    align-items: center;
-    border-radius: 0%;
-    padding: 25%;
-    
+.image1 {
+    padding: 2rem;
+    width: 1200px;
+    height: 750px;
+    border-radius: 3rem;
+}
+
+.p1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color:#96A2BA;
+    display: flex;
+    padding: 5%;
+    text-align: center;
+
+
+}
+
+ul {
+    list-style: none;
 }
 
 
-
+ 
 
 
 
