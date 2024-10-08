@@ -1,0 +1,135 @@
+header>nav
+    {
+        display: flex;
+        background-color: #010326;
+        padding: 2em;
+        border-radius: 1rem;
+        align-items: center;
+        justify-content: space-evenly;
+        position: sticky;
+    }
+    
+    nav>a {
+        background-color: #556573;
+        display: inline-block;
+        padding: 2rem;
+        margin: 0 1em;
+        border-radius: 4em;
+        align-items: center;
+        justify-content: center;
+        color: white;
+}
+
+body {
+    background-color: #739070;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 25%;
+    position: absolute;
+    right: 800px;
+    
+    
+
+}
+
+.lvm {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1600px;
+    height: 900px;
+    border-radius: 4em;
+    margin-top: 100px;
+}
+
+
+
+
+#ione {
+    position: absolute;
+    right: 25%;
+    margin-top: 100px;
+    width: 400px;
+    border-radius: 3rem;
+}
+
+#pone {
+    position: absolute;
+    right: 29%;
+    margin-top: 550px
+}
+
+#itwo {
+    position: absolute;
+    right: 60%;
+    margin-top: 100px;
+    width: 400px;
+    border-radius: 3rem;
+}
+
+#ptwo {
+    position: absolute;
+    right: 61%;
+    margin-top: 550px;
+}
+
+#ithree {
+    position:absolute;
+    right: 50%;
+    left: 20.5%;
+    margin-top: 750px;
+    width: 400px;
+    border-radius: 3rem;
+}
+
+#pthree {
+    position:absolute;
+    margin-top: 1200px;
+    right: 1250px
+}
+
+#ifour {
+    position: absolute;
+    right: 24.5%;
+    margin-top: 750px;
+    width: 400px;
+    border-radius: 3rem;
+}
+
+#pfour {
+    position: absolute;
+    right: 30%;
+    margin-top: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
