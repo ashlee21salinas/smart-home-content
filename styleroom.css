@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: gray; 
+}
+
+* { box-sizing: border-box;}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+section.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 1rem auto;
+}
+
+section.col {
+    /* column styles here if needed*/
+}
+
+section.col.full {
+    width: 100%;
+}
+
+section.col.half {
+    width: 49%;
+}
+
+section.col.eighty {
+    width: 80%;
+    margin: 0;
+}
+
+section.row:has(> section.col.eighty.left) { 
+    justify-content: flex-start;
+}
+
+section.row:has(> section.col.eighty.right) { 
+    justify-content: flex-end;
+}
+
+section.card {
+    background-color: #556573;
+    border: solid 1px black;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+section.row img {
+    border: solid 2px black;
+    border-radius: 2rem;
+}
+
+.full-img {
+    width: 100%;
+    max-height: 600px;
+}
+
+
+
+header>nav {
+    display: flex;
+    background-color: brown;
+    padding: 2em;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+}
+
+
+nav>a {
+    background-color: #010326;
+    display: inline-block;
+    padding: 2rem;
+    margin: 0 1em;
+    border-radius: 4em;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.st {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1600px;
+    height: 900px;
+    border-radius: 4em;
+    margin-top: 100px;
+}
+
+#i3 {
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem; 
+}
+
+
+footer {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
