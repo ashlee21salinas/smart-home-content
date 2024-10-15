@@ -3,7 +3,8 @@ body {
     background-color: gray; 
 }
 
-* { box-sizing: border-box;}
+* { box-sizing: border-box;
+    font-family: "Roboto", system-ui;}
 
 img {
     max-width: 100%;

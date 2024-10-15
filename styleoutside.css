@@ -3,7 +3,8 @@ body {
     background-color: #1A4024; 
 }
 
-* { box-sizing: border-box;}
+* { box-sizing: border-box;
+    font-family: "Roboto", system-ui;}
 
 img {
     max-width: 100%;
@@ -51,7 +52,7 @@ section.card {
 }
 
 section.row img {
-    border: solid 2px black;
+    border: solid 5px black;
     border-radius: 2rem;
 }
 

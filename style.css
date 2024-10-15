@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+* {
+    font-family: "Roboto", system-ui;
+}
+
 header>nav {
     display: flex;
     background-color: #96A2BA;
