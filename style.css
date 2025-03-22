@@ -1,6 +1,7 @@
 body {
     background-color: #020659;
     text-align: center;
+    margin: 0;
 }
 
 * {
@@ -49,6 +50,8 @@ footer {
     display: flex;
     padding: 5%;
     text-align: center;
+    height: 10vh;
+    justify-content: space-around;
 
 
 }
@@ -57,9 +60,7 @@ ul {
     list-style: none;
 }
 
-footer {
-    justify-content: space-around;
-}
+
 
 .navtitle>nav
     {
